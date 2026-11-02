@@ -1,18 +1,20 @@
 /* General Page Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     padding: 20px;
-    background-color: #f4f4f4; /* Default Gray */
+    background-color: #F5F1EB; /* Default Gray */
 }
 
 /* SHARED STYLES: All boxes get these rules */
 .swatch {
     height: 150px;
     width: 100%;
+    box-sizing: border-box;
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid black; /* Default Border */
-    color: white; /* Default text color inside boxes */
+    border: 3px solid #B88A63;
+    border-radius: 15px;
+    color: white;
 }
 
 /* UNIQUE STYLES: Update the HEX codes below */
